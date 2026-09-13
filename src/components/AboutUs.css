@@ -1,0 +1,55 @@
+.about-us {
+  background: #f4f7f4;
+  padding: 3.5rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about-us__content {
+  max-width: 720px;
+  text-align: center;
+}
+
+.about-us__content h2 {
+  color: #1f3d2b;
+  font-size: 2rem;
+  margin: 0 0 1.25rem;
+}
+
+.about-us__content p {
+  color: #3a4a3e;
+  line-height: 1.7;
+  margin: 0 0 1.25rem;
+  text-align: left;
+}
+
+.about-us__stats {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-us__stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us__stat-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #3f6b4a;
+}
+
+.about-us__stat-label {
+  font-size: 0.9rem;
+  color: #6b6b6b;
+}
+
+@media (max-width: 480px) {
+  .about-us {
+    padding: 2.5rem 1.25rem;
+  }
+}
