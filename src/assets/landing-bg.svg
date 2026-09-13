@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f2818" />
+      <stop offset="100%" stop-color="#274d34" />
+    </linearGradient>
+    <linearGradient id="leaf1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3f6b4a" />
+      <stop offset="100%" stop-color="#5c8f68" />
+    </linearGradient>
+    <linearGradient id="leaf2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2e5137" />
+      <stop offset="100%" stop-color="#437a52" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)" />
+  <g opacity="0.9">
+    <path d="M100 900 C 150 650, 80 500, 180 300 C 260 480, 200 650, 260 900 Z" fill="url(#leaf1)" />
+    <path d="M300 900 C 340 700, 260 600, 340 420 C 420 600, 360 700, 400 900 Z" fill="url(#leaf2)" />
+    <path d="M1500 900 C 1450 650, 1520 500, 1420 300 C 1340 480, 1400 650, 1340 900 Z" fill="url(#leaf1)" />
+    <path d="M1300 900 C 1260 700, 1340 600, 1260 420 C 1180 600, 1240 700, 1200 900 Z" fill="url(#leaf2)" />
+    <path d="M700 900 C 720 780, 660 700, 720 600 C 780 700, 720 780, 760 900 Z" fill="url(#leaf2)" opacity="0.6" />
+    <path d="M900 900 C 920 800, 860 720, 920 640 C 980 720, 920 800, 960 900 Z" fill="url(#leaf1)" opacity="0.6" />
+  </g>
+  <g opacity="0.5">
+    <circle cx="1200" cy="150" r="3" fill="#cfe8d6" />
+    <circle cx="1250" cy="220" r="2" fill="#cfe8d6" />
+    <circle cx="1150" cy="260" r="2.5" fill="#cfe8d6" />
+    <circle cx="350" cy="120" r="2" fill="#cfe8d6" />
+    <circle cx="420" cy="180" r="3" fill="#cfe8d6" />
+  </g>
+</svg>
